@@ -13,4 +13,5 @@ int main(){
 		num >>= 1;
 	} while(num);
 	cout << "yes" << '\n';
+	return 0;
 }

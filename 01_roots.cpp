@@ -28,4 +28,5 @@ int main(int argc, char *argv[]){
 				printf("(-Inf;+Inf)");
 		}
 	}
+	return 0;
 }

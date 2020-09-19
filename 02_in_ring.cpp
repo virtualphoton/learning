@@ -10,5 +10,6 @@ int main(int argc, char *argv[]){
 	double x, y, r, R;
 	std::cin >> x >> y >> r >> R;
 	double ro = std::sqrt(x*x + y*y);
-	std::cout << ((ro >= r && ro <= R)? "yes":"no") << '\n'; 
+	std::cout << ((ro >= r and ro <= R)? "yes":"no") << '\n'; 
+	return 0;
 }
