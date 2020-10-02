@@ -1,3 +1,3 @@
-# learning
+# Repository for learning best and most beautiful language
 
-just some code examples while learning js and TouchTyping
+is not here. Here I learn ~~damn~~ cpp
