@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-	const int MAX_LEN = 8;
+	const int MAX_LEN = 9;
 	char s[MAX_LEN];
 	int base = 2;
 	std::cin.getline(s, MAX_LEN);
