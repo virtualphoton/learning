@@ -1,0 +1,4 @@
+﻿  dyn_arrs_funcs.cpp
+C:\Users\bkmz1\source\repos\learning_cpp\learning\lesson_05_pointers_and_dyn_arrs\dyn_arrs_funcs.cpp(8,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\bkmz1\source\repos\learning_cpp\learning\lesson_05_pointers_and_dyn_arrs\dyn_arrs_funcs.cpp(14,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  08_05_extended_shift.vcxproj -> C:\Users\bkmz1\source\repos\learning_cpp\learning\lesson_05_pointers_and_dyn_arrs\04_01_swap_min_and_max\Debug\08_05_extended_shift.exe
