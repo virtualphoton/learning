@@ -18,3 +18,6 @@ int ** make_triang(int ** mat, int size);
 
 //determinator of square matrix
 double det(int ** mat, int size);
+
+//Concat s1 and s2 into char array dest. Not more symbols than max_len.
+void concat_into(const char * s1, const char * s2, char * dest, int max_len);

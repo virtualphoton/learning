@@ -111,3 +111,14 @@ double det(int ** mat, int size) {
 
 	return det;
 }
+
+void concat_into(const char * s1, const char * s2, char * dest, int max_len) {
+	int len1 = len_of_str(s1);
+	int len2 = len_of_str(s2);
+	int pos = 0;
+	for (; pos < max_len and pos < len1; pos += 1)
+		dest[pos] = s1[pos];
+	len2 += pos;
+	for (; pos < max_len and pos < len2; pos += 1)
+		dest[pos] = s2[pos-len1];
+}
