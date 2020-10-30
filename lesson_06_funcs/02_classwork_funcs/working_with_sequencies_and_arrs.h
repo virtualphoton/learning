@@ -2,7 +2,7 @@
 
 void foo_bar(int start = 1, int end = 100);
 
-void out_2_maxes(int * arr, int len);
+void out_2_mins(int * arr, int len);
 
 int * bubble_sort(int * arr0, int len);
 

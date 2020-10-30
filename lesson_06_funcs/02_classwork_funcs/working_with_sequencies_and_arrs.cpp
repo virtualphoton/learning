@@ -14,7 +14,7 @@ void foo_bar(int start, int end) {
 	}
 }
 
-void out_2_maxes(int * arr, int len) {
+void out_2_mins(int * arr, int len) {
 	int * sorted = bubble_sort(arr, len);
 	printf("%i %i", sorted[1], sorted[0]);
 	delete[] sorted;
