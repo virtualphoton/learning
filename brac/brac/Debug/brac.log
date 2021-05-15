@@ -1,4 +1,0 @@
-﻿  brac.cpp
-C:\Users\bkmz1\source\repos\brac\brac\brac.cpp(20,17): warning C4018: '<': signed/unsigned mismatch
-C:\Users\bkmz1\source\repos\brac\brac\brac.cpp(36,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  brac.vcxproj -> C:\Users\bkmz1\source\repos\brac\Debug\brac.exe
