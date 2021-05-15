@@ -17,7 +17,7 @@ bool is_valid(string s) {
 
 		int counter = 0;
 		int i;
-		for (i = 0; i < s.size(); i += 1) {
+		for (i = start; i < s.size(); i += 1) {
 			if (s[i] == pairs[st])
 				counter -= 1;
 			if (s[i] == st)
@@ -28,11 +28,19 @@ bool is_valid(string s) {
 		if (counter)
 			return false;
 		res = res and is_valid(s.substr(start+1, i-start-1));
+		if (not res)
+			break;
 		start = i + 1;
 	}
 	return res;
 }
 
 void main() {
-	is_valid("([{]})");
+	std::cout << is_valid("[()]");
+	std::cout << is_valid("{[()]}");
+	std::cout << is_valid("([{{[(())]}}])");
+	std::cout << '\n';
+	std::cout << is_valid("abc[](){}");
+	std::cout << is_valid("{{[]()}}}}");
+	std::cout << is_valid("{[(])}");
 }
